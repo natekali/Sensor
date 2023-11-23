@@ -91,7 +91,7 @@ Now the setup is **fully completed**.
 - **deletion.php** : PHP script used to delete user
 - **creation.php** : PHP script used to create user
 - **config.php** : DB credentials config
-- **ARDUINO** :  Arduino code for use the card reader
+- **Code-Arduino.ino** :  Arduino code for use the card reader
 - **schema_hardW1.png** : First schema of hardware configuration 
 - **schema_hardW2.png** :  Second schema of hardware configuration
 
