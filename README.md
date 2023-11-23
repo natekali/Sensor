@@ -45,7 +45,7 @@ Change the request URL inside the **C script**, have to be accorded with your **
 
 Now the setup is **fully completed**.
 
-## File details
+## Files details
 - **index.php** : Endpoint used by the card reader when requesting API, main file
 - **dashboard.php** : Dashboard web to easily add or delete user
 - **deletion.php** : PHP script used to delete user
