@@ -42,7 +42,9 @@ Sets the communication rate in number of characters per second (unit is baud) fo
   }
 ```
 
-After you will create a code for connecting your ESP32-C3 in internet 
+After you will create a code for connecting your *ESP32-C3* in internet or use mine 
+
+Next steps is to create the code to read a *RFID* or *NFC* Tag with your *ESP32-C3*
 
 ### PHP CODE
 
