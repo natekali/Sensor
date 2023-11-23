@@ -36,6 +36,11 @@ After you will create a code for connecting your **ESP32-C3** in internet or use
 
 Next steps is to create the code to read a **RFID** or **NFC** tag with your **ESP32-C3**. You will use some :
 
+```like
+  (rfid.PICC_IsNewCardPresent())
+  sprintf(uidString, "%02X%02X%02X%02X", 
+              rfid.uid.uidByte[0], rfid.uid.uidByte[1], rfid.uid.uidByte[2],
+              rfid.uid.uidByte[3]);
 ```
 
 ### PHP CODE
