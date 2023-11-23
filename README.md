@@ -24,7 +24,7 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 # First thing you need to do is to include everything for use the librairies.
 
 
-```http
+```include
   #include <SPI.h>
   #include <MFRC522.h>
   #include "WiFi.h"
