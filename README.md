@@ -45,8 +45,13 @@ Change the request URL inside the **C script**, have to be accorded with your **
 
 Now the setup is **fully completed**.
 
-## Usage
-**Sensor** can be used to easily **restict acces to a physical area**, all security features are **enabled** and **natively active**, all-in-one acccess management tool fully **open-source** and free.
+## File details
+- **index.php** : Endpoint used by the card reader when requesting API, main file
+- **dashboard.php** : Dashboard web to easily add or delete user
+- **deletion.php** : PHP script used to delete user
+- **creation.php** : PHP script used to create user
+- **config.php** : DB credentials config
+- **ARDUINO** :  //////// TO CHANGE
 
 ## Portfolio
 
