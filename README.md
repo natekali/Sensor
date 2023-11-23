@@ -21,7 +21,8 @@ The sensor project is a fully automated card reader combined to a PHP API build 
   Library manager --> MFRC22
 ```
 
-# First thing you need to do is to include everything for use the librairies.
+
+First thing you need to do is to include everything for use the librairies.
 
 
 ```include
@@ -33,15 +34,15 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 
 
 
-# Sets the communication rate in number of characters per second (unit is baud) for serial communication with : 
+Sets the communication rate in number of characters per second (unit is baud) for serial communication with : 
 
-```begin
+```setup
   void setup() {
   	Serial.begin(115200);
   }
 ```
 
-# After you will create a code for connecting your ESP32-C3 in internet 
+After you will create a code for connecting your ESP32-C3 in internet 
 
 ### PHP CODE
 
