@@ -43,6 +43,12 @@ Next steps is to create the code to read a **RFID** or **NFC** tag with your **E
               rfid.uid.uidByte[3]);
 ```
 
+Me i have choose to read my users with a **PHP API** so you will need to connect the **API** with your **ESP32-C3**.
+
+```
+ADD TEXT
+```
+
 ### PHP CODE
 
 ```Web server
