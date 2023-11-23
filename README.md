@@ -32,19 +32,11 @@ First thing you need to do is to include everything for use the librairies.
   #include "HTTPClient.h" 
 ```
 
-
-
-Sets the communication rate in number of characters per second (unit is baud) for serial communication with : 
-
-```setup
-  void setup() {
-  	Serial.begin(115200);
-  }
-```
-
 After you will create a code for connecting your **ESP32-C3** in internet or use mine 
 
-Next steps is to create the code to read a **RFID** or **NFC** tag with your **ESP32-C3**
+Next steps is to create the code to read a **RFID** or **NFC** tag with your **ESP32-C3**. You will use some :
+
+```
 
 ### PHP CODE
 
