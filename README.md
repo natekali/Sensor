@@ -35,7 +35,7 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 
 # Sets the communication rate in number of characters per second (unit is baud) for serial communication with : 
 
-```http
+```begin
   void setup() {
   	Serial.begin(115200);
   }
