@@ -34,20 +34,32 @@ First thing you need to do is to include everything for use the librairies.
 
 After you will create a code for connecting your **ESP32-C3** in internet or use mine 
 
-Next steps is to create the code to read a **RFID** or **NFC** tag with your **ESP32-C3**. You will use some :
+Next steps is to create the code to read a **RFID** or **NFC** tag with your **ESP32-C3**.
 
-```like
-  (rfid.PICC_IsNewCardPresent())
-  sprintf(uidString, "%02X%02X%02X%02X", 
-              rfid.uid.uidByte[0], rfid.uid.uidByte[1], rfid.uid.uidByte[2],
-              rfid.uid.uidByte[3]);
-```
+Me i have choose to read my users with a **PHP API** so you will need to connect the **API** with your **ESP32-C3**. You can obviously use something else like a Raspberry pi or everything else.
+For this i have :
 
-Me i have choose to read my users with a **PHP API** so you will need to connect the **API** with your **ESP32-C3**.
+-Initialize with http.
 
-```
-ADD TEXT
-```
+-Checking for the presence of a new RFID card: The code checks if a new RFID card is present using the rfid.PICC_IsNewCardPresent() function.
+
+-Reading RFID card data: If a new card is present, the card data is read with rfid.PICC_ReadCardSerial().
+
+-Identification of the card type: The type of RFID card is determined using rfid.PICC_GetType(rfid.uid.sak), and the result is displayed on the serial port.
+
+-Displaying the RFID card UID: The UID (Unique Identifier) of the card is converted to a hexadecimal string and displayed on the serial port.
+
+-Construction of the URL: A URL is constructed by appending the UID to a base address, forming an HTTP request.
+
+-Initialization of the HTTP connection: The HTTPClient object is configured with the constructed URL using http.begin(url).
+
+-Sending an HTTP GET request: An HTTP GET request is made using http.GET(). The code then checks the server response.
+
+-Processing the server response: If the request is successful (HTTP code > 0), the server response is displayed on the serial port. Otherwise, a failure message is displayed.
+
+-Closing the HTTP connection: The HTTP connection is closed with http.end().
+
+-Deactivating the RFID card: The functions rfid.PICC_HaltA() and rfid.PCD_StopCrypto1() are called to deactivate the RFID card.
 
 ### PHP CODE
 
