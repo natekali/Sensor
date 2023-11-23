@@ -13,7 +13,7 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 
 ## CODE ARDUINO 
 
-#### Get all items you need 
+### Get all items you need 
 
 ```http
   Boards manager --> esp32
@@ -24,15 +24,15 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 ```
 
 To use the sensor, here is the required things :
-* requests ////////////// TO CHANGE
-* psycopg2-binary ////////////// TO CHANGE
-* watchdog ////////////// TO CHANGE
+* requests 
+* psycopg2-binary 
+* watchdog 
 
 ## Installation
 
 Clone this repository to your local machine.
 
-Deploy the C script on your ESP IDE, flash it //////////////// TO CHANGE
+Deploy the C script on your ESP IDE, flash it
 
 Move **all** the PHP files inside of your web server **root** directory (ex: /var/www/html).
 
