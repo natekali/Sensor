@@ -10,8 +10,20 @@ The sensor project is a fully automated card reader combined to a PHP API build 
 * **Automatic logs creation in Database**
 
 ## Prerequisites
+
+## CODE ARDUINO 
+
+#### Get all items you need 
+
+```http
+  Boards manager --> esp32
+```
+
+```http
+  Library manager --> MFRC22
+```
+
 To use the sensor, here is the required things :
-* ESP 32 ////////////// TO CHANGE
 * requests ////////////// TO CHANGE
 * psycopg2-binary ////////////// TO CHANGE
 * watchdog ////////////// TO CHANGE
