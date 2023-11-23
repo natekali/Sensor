@@ -80,6 +80,8 @@ Now the setup is **fully completed**.
 - **creation.php** : PHP script used to create user
 - **config.php** : DB credentials config
 - **ARDUINO** :  //////// TO CHANGE
+- **schema_hardW1.png** : First schema of hardware configuration 
+- **schema_hardW2.png** :  Second schema of hardware configuration
 
 ## Portfolio
 
