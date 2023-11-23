@@ -57,7 +57,7 @@ Next steps is to create the code to read a **RFID** or **NFC** tag with your **E
 
 Clone this repository to your local machine.
 
-Deploy the C script on your ESP IDE, flash it /////// HAVE TO BE CHNGED
+Deploy the Arduino script on your Arduino IDE or select your board and run it
 
 Move **all** the PHP files inside of your web server **root** directory (ex: /var/www/html).
 
