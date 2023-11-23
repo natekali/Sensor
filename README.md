@@ -57,7 +57,7 @@ Now the setup is **fully completed**.
 <img width="901" alt="Capture d’écran 2023-11-23 à 09 46 32" src="https://github.com/natekali/sensor/assets/117448792/3276ae83-5546-49a3-8f5b-05b169bd847e">
 
 ### Allowed User
-<img width="901" alt="Capture d’écran 2023-11-23 à 09 46 50" src="https://github.com/natekali/sensor/assets/117448792/464100cc-96fd-40fa-9f6d-c4e4f566f613">
+<img width="901" alt="Capture d’écran 2023-11-23 à 09 48 08" src="https://github.com/natekali/sensor/assets/117448792/c1717506-629b-4c2f-8874-4c15040b3fd6">
 
 ## Author
 * [@natekali](https://github.com/natekali)
