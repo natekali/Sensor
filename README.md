@@ -21,6 +21,28 @@ The sensor project is a fully automated card reader combined to a PHP API build 
   Library manager --> MFRC22
 ```
 
+# First thing you need to do is to include everything for use the librairies.
+
+
+```http
+  #include <SPI.h>
+  #include <MFRC522.h>
+  #include "WiFi.h"
+  #include "HTTPClient.h" 
+```
+
+
+
+# Sets the communication rate in number of characters per second (unit is baud) for serial communication with : 
+
+```http
+  void setup() {
+  	Serial.begin(115200);
+  }
+```
+
+# After you will create a code for connecting your ESP32-C3 in internet 
+
 ### PHP CODE
 
 ```Web server
